@@ -1,3 +1,19 @@
 section {
-    
+    width: 500px;
+    height: 500px;
+    background-color: pink
+}
+
+#rgba { /* this will allow for text to be normally visible while only changing the background  */
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255,255,255,0.5);
+    /* background-color: ; #00cca0b9  The last 3 spaces will determine opacity when using hexadecimal (0b9)*/
+}
+
+#opacity{/* this block of code using the opacity attribute will cause any text to also be blurred */
+    width: 50%;
+    height: 50%;
+    background-color:yellow ;
+    opacity: 0.3;
 }
