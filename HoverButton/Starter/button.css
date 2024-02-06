@@ -7,4 +7,19 @@ body {
   background-color: #151b29;
 }
 
- 
+button {
+  background: none;
+  color: #ffa260; /* Sets border and font color */
+  border: 2px solid;
+  padding: 1em 2em;/* Sets a space inside the button for our text */
+  font-size: 1em;
+  transition: all 0.25s;
+}
+
+button:hover {/*  On hover do the following */
+  border-color: #f1ff5c;/* Changes border color on hover */
+  color: white;/* Changes font color on hover */
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;/* Adds a box shadow to our button */
+  transform: translateY(-0.25em);/* On hover moves our button slightly up  */
+  cursor: pointer;/* Changes user cursor to add to the UI of this button is interactive */
+}
